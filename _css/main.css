@@ -1,1 +1,110 @@
 /* css */
+body {
+    padding:0px;
+    margin:0px;
+    background-image:url(../horchata.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+#header{
+    background-color:gray;
+    padding:0px;
+    color:white;
+}
+h1{
+    margin:0px;
+    padding:20px 40px;
+    font-family:verdana;
+    font-size:60px;
+}
+.spotlight {
+    background-color:pink;
+    padding:20px;
+}
+/* Navigation */
+
+#nav, #nav a{
+    background-color:#ccc;    /* Sets Background Color To Gray */
+    padding:10px;
+}
+#nav{
+    padding-left:40px;
+}
+#nav a {
+    margin:0px;
+    color:black;
+    font-family:arial;
+    text-decoration:none;
+    transition:background-color 2s, color 2s; /* changes text and background color back to normal */
+}
+#nav a:hover {
+    background-color:#aaaaff; /* changes text to white and background color to blue*/
+    color:white;
+    transition:color 2s;
+}
+/* End Navigation*/
+#content{
+    padding:20px 40px;
+    margin:0px;
+    background-color:#eee;
+}
+#content h2, #content h3{
+    font-family:arial;
+}
+#footer{
+    padding:20px 40px;
+    background-color:black;
+    margin:0px;
+    color:white;
+}
+#footer a{
+    text-decoration:none;
+    color:white;
+}
+#page{
+    margin:40px 70px;
+}
+/*
+#header{
+    width:400px;
+    background-color:navy;
+    padding:20px;
+    color:white;
+    border-radius:0px;
+    transition:background-color 1s, color 1s, border-radius 1s;
+}
+#header:hover{
+    background-color:teal;
+    transition:background-color 1s, color 1s, border-radius 1s;
+    color:black;
+    border-radius:25px;
+}
+#content{
+    width:400px;
+    background-color:red;
+    padding:20px;
+    color:white;
+    border-radius:0px;
+    transition:background-color 1s, color 1s, border-radius 1s;
+}
+#content:hover{
+    background-color:orange;
+    transition:background-color 1s, color 1s, border-radius 1s;
+    color:black;
+    border-radius:25px;
+}
+#footer{
+    width:400px;
+    background-color:#2EB82E;
+    padding:20px;
+    color:white;
+    border-radius:0px;
+    transition:background-color 1s, color 1s, border-radius 1s;
+}
+#footer:hover{
+    background-color:yellow;
+    transition:background-color 1s, color 1s, border-radius 1s;
+    color:black;
+    border-radius:25px;
+}
+*/
